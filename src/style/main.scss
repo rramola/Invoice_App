@@ -1,0 +1,93 @@
+$light: #888;
+$medium: #555;
+$dark: #333;
+$hover: #d5cfd5;
+$off_white: #eee;
+$sub: #ddd;
+
+
+
+
+
+
+body {
+    margin: 0px;
+    font-family: 'Yantramanav', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: $off_white;
+}
+
+.header_wrapper {
+    display: flex;
+    height: 10rem;
+    justify-content: center;
+    background-color: $light;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px $medium;
+
+
+}
+
+.header_wrapper > .heading_text_wrapper {
+    color: $dark;
+    display: flex;
+    width: 100vw;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+
+ .create_invoice_content_wrapper{
+    color: $dark;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    background-color: $off-white;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px $medium;
+}
+
+
+.invoice_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+.invoice_list li {
+    color: $dark;
+    background-color: $light;
+    padding: 15px; 
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px $medium;
+}
+
+.invoice_list li:hover {
+    color: $dark;
+    background-color: $hover;
+    transition: .5s;
+}
+
+#invoice:hover {
+    background-color: $sub;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: .5s;
+}
+
+#invoice_item:hover {
+    background-color: $sub;
+    border-radius: 5px;
+    transition: .5s;
+
+}
+
+.invoice_submission_wrapper {
+    display: flex;
+    justify-content: center;
+}
